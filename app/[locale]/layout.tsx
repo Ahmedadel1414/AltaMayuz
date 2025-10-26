@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Header } from "@/components/layout/header";
+import { getMessages } from "next-intl/server";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,18 +31,20 @@ export default async function RootLayout({
   params: { locale: string };
 }>) {
   // Ensure that the incoming `locale` is valid
-  const { locale } = await  Promise.resolve(params);
+const { locale } = params;
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+
+    const messages = await getMessages({ locale });
 
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"} suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-        <NextIntlClientProvider timeZone="UTC" locale={locale}>
+        <NextIntlClientProvider timeZone="UTC" locale={locale} messages={messages}>
           <ThemeProvider>
             <Header />
             <main className="min-h-screen">
