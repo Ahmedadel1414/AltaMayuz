@@ -111,7 +111,7 @@ const HeroSection = () => {
             variants={itemVariants}
           >
             <motion.span
-              className="bg-gradient-to-r from-[#eab905] via-[#c7a420] to-[#63bcaa] bg-clip-text text-transparent"
+              className="bg-gradient-to-r from-corn via-nugget to-tradewind bg-clip-text text-transparent"
               initial={{ backgroundPosition: "0% 50%" }}
               animate={{ backgroundPosition: "100% 50%" }}
               transition={{
@@ -147,7 +147,7 @@ const HeroSection = () => {
               <Button
                 size="lg"
                 onClick={handleOurServices}
-                className="bg-gradient-to-r from-[#eab905] to-[#c7a420] hover:from-[#c7a420] hover:to-[#eab905] text-white font-semibold px-8 py-4 text-lg shadow-lg hover:shadow-xl"
+                className="bg-gradient-to-r from-corn to-nugget hover:from-nugget hover:to-corn text-white font-semibold px-8 py-4 text-lg shadow-lg hover:shadow-xl"
               >
                 {t("ourServices")}
                 <motion.div
@@ -168,7 +168,7 @@ const HeroSection = () => {
                 variant="outline"
                 size="lg"
                 onClick={handleContactUs}
-                className="border-2 border-[#63bcaa] text-[#63bcaa] hover:bg-[#63bcaa] hover:text-white font-semibold px-8 py-4 text-lg bg-white/10 backdrop-blur-sm"
+                className="border-2 border-tradewind text-tradewind hover:bg-tradewind hover:text-white font-semibold px-8 py-4 text-lg bg-white/10 backdrop-blur-sm"
               >
                 <motion.div
                   animate={{ rotate: [0, 10, -10, 0] }}
@@ -191,7 +191,7 @@ const HeroSection = () => {
               variants={featureVariants}
             >
               <motion.div
-                className="h-2 w-2 rounded-full bg-[#eab905]"
+                className="h-2 w-2 rounded-full bg-corn"
                 animate={{ scale: [1, 1.2, 1] }}
                 transition={{ duration: 2, repeat: Infinity }}
               />
@@ -202,7 +202,7 @@ const HeroSection = () => {
               variants={featureVariants}
             >
               <motion.div
-                className="h-2 w-2 rounded-full bg-[#63bcaa]"
+                className="h-2 w-2 rounded-full bg-tradewind"
                 animate={{ scale: [1, 1.2, 1] }}
                 transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
               />
@@ -213,7 +213,7 @@ const HeroSection = () => {
               variants={featureVariants}
             >
               <motion.div
-                className="h-2 w-2 rounded-full bg-[#4657a1]"
+                className="h-2 w-2 rounded-full bg-san-marino"
                 animate={{ scale: [1, 1.2, 1] }}
                 transition={{ duration: 2, repeat: Infinity, delay: 1 }}
               />
