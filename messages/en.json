@@ -1,0 +1,22 @@
+{
+  "HomePage": {
+    "title": "Welcome to AltaMayuz"
+  },
+  "Navigation": {
+    "home": "Home",
+    "services": "Our Services",
+    "about": "About Us",
+    "partners": "Partners",
+    "testimonials": "Testimonials",
+    "contact": "Contact Us"
+  },
+  "Theme": {
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "Language": {
+    "language": "Language"
+  }
+}

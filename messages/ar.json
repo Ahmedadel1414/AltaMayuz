@@ -1,0 +1,22 @@
+{
+  "HomePage": {
+    "title": "مرحباً بكم في ألتامايوز"
+  },
+  "Navigation": {
+    "home": "الرئيسية",
+    "services": "خدماتنا",
+    "about": "من نحن",
+    "partners": "الشركاء",
+    "testimonials": "آراء العملاء",
+    "contact": "اتصل بنا"
+  },
+  "Theme": {
+    "theme": "المظهر",
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام"
+  },
+  "Language": {
+    "language": "اللغة"
+  }
+}
