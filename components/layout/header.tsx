@@ -35,8 +35,8 @@ export function Header() {
             <Image
               src="/logo2.png"
               alt="AltaMayuz Logo"
-              width={32}
-              height={32}
+              width={46}
+              height={46}
               className="rounded-lg transition-all duration-200 group-hover:scale-105"
             />
             <span className="font-bold text-xl transition-colors duration-200 group-hover:text-primary">
@@ -107,8 +107,8 @@ export function Header() {
               <Image
                 src="/logo2.png"
                 alt="AltaMayuz Logo"
-                width={32}
-                height={32}
+                width={46}
+                height={46}
                 className="rounded-lg transition-all duration-200 group-hover:scale-105"
               />
               <span className="font-bold text-xl transition-colors duration-200 group-hover:text-primary">
