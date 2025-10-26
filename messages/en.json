@@ -2,6 +2,16 @@
   "HomePage": {
     "title": "Welcome to AltaMayuz"
   },
+  "HeroSection": {
+    "title": "Transforming Ideas into Digital Excellence",
+    "description": "We create innovative digital solutions that drive business growth and deliver exceptional user experiences. From web development to digital strategy, we're your trusted partner in the digital world.",
+    "ourServices": "Our Services",
+    "contactUs": "Contact Us",
+    "feature1": "Innovative Solutions",
+    "feature2": "Expert Team",
+    "feature3": "Proven Results",
+    "videoNotSupported": "Your browser does not support the video tag."
+  },
   "Navigation": {
     "home": "Home",
     "services": "Our Services",
