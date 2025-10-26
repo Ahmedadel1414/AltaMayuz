@@ -4,9 +4,10 @@ import "@/styles/globals.css";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { ThemeProvider } from "@/components/providers/theme-provider";
-import { Header } from "@/components/layout/header";
+import { ThemeProvider } from "@/providers/theme-provider";
+import Header from "@/features/Header";
 import { getMessages } from "next-intl/server";
+import Footer from "@/features/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -50,6 +51,7 @@ export default async function RootLayout({
             <main className="min-h-screen">
               {children}
             </main>
+            <Footer />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

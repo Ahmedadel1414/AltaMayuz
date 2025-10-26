@@ -8,17 +8,8 @@ import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { ThemeSwitcher } from "@/components/ui/theme-switcher";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
-
-const navigationItems = [
-  { key: "home", href: "/" },
-  { key: "services", href: "/services" },
-  { key: "about", href: "/about" },
-  { key: "partners", href: "/partners" },
-  { key: "testimonials", href: "/testimonials" },
-  { key: "contact", href: "/contact" },
-];
-
-export function Header() {
+import { navigationItems } from "@/constants/navigationItems";
+const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const t = useTranslations("Navigation");
   const pathname = usePathname();
@@ -162,4 +153,6 @@ export function Header() {
       </aside>
     </>
   );
-}
+};
+
+export default Header;
