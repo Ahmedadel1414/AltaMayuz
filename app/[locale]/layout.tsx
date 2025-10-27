@@ -8,6 +8,7 @@ import { ThemeProvider } from "@/providers/theme-provider";
 import Header from "@/features/Header";
 import { getMessages } from "next-intl/server";
 import Footer from "@/features/Footer";
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -47,8 +48,9 @@ export default async function RootLayout({
         >
         <NextIntlClientProvider timeZone="UTC" locale={locale} messages={messages}>
           <ThemeProvider>
+            <AnimatedBackground />
             <Header />
-            <main className="min-h-screen">
+            <main className="min-h-screen relative">
               {children}
             </main>
             <Footer />

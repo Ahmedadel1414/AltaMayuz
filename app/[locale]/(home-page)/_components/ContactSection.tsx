@@ -32,38 +32,6 @@ const ContactSection = () => {
 
   return (
     <section className="relative w-full overflow-hidden h-full">
-      <motion.div
-        className="mt-6 px-4"
-        variants={container}
-        initial="hidden"
-        animate="visible"
-      >
-        <motion.h1
-          variants={item}
-          className="text-center text-3xl md:text-4xl font-bold"
-        >
-          <motion.span
-            className="bg-linear-to-r from-corn via-nugget to-tradewind bg-clip-text text-transparent"
-            initial={{ backgroundPosition: "0% 50%" }}
-            animate={{ backgroundPosition: "100% 50%" }}
-            transition={{
-              duration: 3,
-              ease: "easeInOut",
-              repeat: Infinity,
-              repeatType: "reverse",
-            }}
-            style={{ backgroundSize: "200% 200%" }}
-          >
-            {t("title")}
-          </motion.span>
-        </motion.h1>
-        <motion.p
-          variants={item}
-          className="mt-3 text-center text-muted-foreground max-w-2xl mx-auto"
-        >
-          {t("subtitle")}
-        </motion.p>
-      </motion.div>
       <div className="mx-auto max-w-7xl px-3 sm:px-4 py-10 md:py-16">
         <motion.div
           variants={container}

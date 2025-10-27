@@ -46,5 +46,24 @@
     "messagePlaceholder": "Tell us about your project or question...",
     "responseNote": "We typically respond within 24 hours.",
     "send": "Send message"
+  },
+  "ServicesSection": {
+    "title": "Our Services",
+    "description": "Comprehensive digital solutions tailored to your business needs",
+    "seeMore": "See more",
+    "seeLess": "See less",
+    "viewAll": "View All Services"
+  },
+  "OurServicesPage": {
+    "title": "Our Services",
+    "subtitle": "Explore our comprehensive range of digital solutions designed to transform your business",
+    "heroTitle": "Our Services",
+    "heroSubtitle": "Comprehensive digital solutions tailored to transform your business",
+    "seeMore": "See more",
+    "seeLess": "See less"
+  },
+  "ContactUsPage": {
+    "heroTitle": "Get in Touch",
+    "heroSubtitle": "Let's discuss how we can help bring your vision to life"
   }
 }
