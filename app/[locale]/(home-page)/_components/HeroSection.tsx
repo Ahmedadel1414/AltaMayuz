@@ -79,6 +79,13 @@ const HeroSection = () => {
     },
   };
 
+  const handleScroll = () => {
+    window.scrollTo({
+      top: window.innerHeight,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="relative h-[calc(100vh-4rem)] w-full overflow-hidden">
       {/* Background Video */}
@@ -229,7 +236,10 @@ const HeroSection = () => {
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 1.5, repeat: Infinity }}
       >
-        <div className="h-8 w-5 rounded-full border-2 border-white/50 flex justify-center">
+        <div
+          onClick={handleScroll}
+          className="h-8 w-5 rounded-full border-2 border-white/50 flex justify-center"
+        >
           <motion.div
             className="h-2 w-1 bg-white/70 rounded-full mt-2"
             animate={{ opacity: [0.7, 1, 0.7] }}

@@ -76,5 +76,14 @@
     "heroTitle": "Our Projects",
     "heroSubtitle": "Discover the innovative solutions we've delivered for our clients",
     "subtitle": "Browse through our diverse portfolio of successful projects"
+  },
+  "TestimonialsSection": {
+    "title": "What Our Clients Say",
+    "description": "Don't just take our word for it - hear from our satisfied clients",
+    "at": "at"
+  },
+  "OurPartnersSection": {
+    "title": "Our Trusted Partners",
+    "description": "Collaborating with industry leaders to deliver exceptional results"
   }
 }
