@@ -1,6 +1,6 @@
 "use client";
 
-import ClientsSection from "./_components/ClientsSection";
+import OurPartnersSection from "./_components/OurPartnersSection";
 import ContactSection from "./_components/ContactSection";
 import HeroSection from "./_components/HeroSection";
 import OurProjectsSection from "./_components/OurProjectsSection";
@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="flex flex-col gap-10 pb-10">
       <HeroSection />
-      <ClientsSection />
+      <OurPartnersSection />
       <ServicesSection />
       <OurProjectsSection />
       <TestimonialsSection />
