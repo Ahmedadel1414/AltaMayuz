@@ -28,5 +28,23 @@
   },
   "Language": {
     "language": "Language"
+  },
+  "ContactSection": {
+    "title": "Contact Us",
+    "description": "Let's build something great together",
+    "subtitle": "We’d love to hear about your ideas and challenges.",
+    "description2": "Have a project in mind? We'd love to help. Send us a message and we'll get back to you soon.",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "addressValue": "Riyadh, Saudi Arabia",
+    "name": "Name",
+    "namePlaceholder": "Your full name",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your project or question...",
+    "responseNote": "We typically respond within 24 hours.",
+    "send": "Send message"
   }
 }

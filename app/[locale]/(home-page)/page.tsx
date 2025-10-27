@@ -11,7 +11,7 @@ import TestimonialsSection from "./_components/TestimonialsSection";
 
 const Home = () => {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 pb-10">
       <HeroSection />
       <ClientsSection />
       <AboutSection />

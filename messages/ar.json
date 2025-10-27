@@ -28,5 +28,23 @@
   },
   "Language": {
     "language": "اللغة"
+  },
+  "ContactSection": {
+    "title": "اتصل بنا",
+    "description": "لنحقق التميز معًا",
+    "description2": "لديك مشروع في ذهنك؟ يسعدنا مساعدتك. أرسل لنا رسالتك وسنعاود التواصل قريبًا.",
+    "phoneLabel": "الهاتف",
+    "emailLabel": "البريد الإلكتروني",
+    "addressLabel": "العنوان",
+    "addressValue": "الرياض، المملكة العربية السعودية",
+    "name": "الاسم",
+    "namePlaceholder": "اسمك الكامل",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "you@example.com",
+    "message": "الرسالة",
+    "messagePlaceholder": "حدثنا عن مشروعك أو سؤالك...",
+    "responseNote": "عادةً نرد خلال 24 ساعة.",
+    "send": "إرسال الرسالة",
+    "subtitle": "يسعدنا سماع أفكارك وتحدياتك."
   }
 }
