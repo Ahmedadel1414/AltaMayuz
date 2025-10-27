@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { servicesCards } from "@/constants/servicesCards";
+import { servicesCards } from "@/constants/servicesCardsItems";
 import PageHero from "@/components/PageHero";
 
 const OurServicesPage = () => {

@@ -18,7 +18,8 @@
     "about": "من نحن",
     "partners": "الشركاء",
     "testimonials": "آراء العملاء",
-    "contact": "اتصل بنا"
+    "contact": "اتصل بنا",
+    "ourProjects": "مشاريعنا"
   },
   "Theme": {
     "theme": "المظهر",
@@ -65,5 +66,15 @@
   "ContactUsPage": {
     "heroTitle": "تواصل معنا",
     "heroSubtitle": "دعنا نناقش كيف يمكننا مساعدتك في تحقيق رؤيتك"
+  },
+  "OurProjectsSection": {
+    "title": "مشاريعنا",
+    "description": "استكشف محفظتنا من المشاريع الناجحة المنفذة عبر مختلف الصناعات",
+    "viewAll": "عرض جميع المشاريع"
+  },
+  "OurProjectsPage": {
+    "heroTitle": "مشاريعنا",
+    "heroSubtitle": "اكتشف الحلول المبتكرة التي قدمناها لعملائنا",
+    "subtitle": "تصفح محفظتنا المتنوعة من المشاريع الناجحة"
   }
 }

@@ -18,7 +18,8 @@
     "about": "About Us",
     "partners": "Partners",
     "testimonials": "Testimonials",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "ourProjects": "Our Projects"
   },
   "Theme": {
     "theme": "Theme",
@@ -65,5 +66,15 @@
   "ContactUsPage": {
     "heroTitle": "Get in Touch",
     "heroSubtitle": "Let's discuss how we can help bring your vision to life"
+  },
+  "OurProjectsSection": {
+    "title": "Our Projects",
+    "description": "Explore our portfolio of successful projects delivered across various industries",
+    "viewAll": "View All Projects"
+  },
+  "OurProjectsPage": {
+    "heroTitle": "Our Projects",
+    "heroSubtitle": "Discover the innovative solutions we've delivered for our clients",
+    "subtitle": "Browse through our diverse portfolio of successful projects"
   }
 }

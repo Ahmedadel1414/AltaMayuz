@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { servicesCards } from "@/constants/servicesCards";
+import { servicesCards } from "@/constants/servicesCardsItems";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useRouter } from "next/navigation";
@@ -87,7 +87,10 @@ const ServicesSection = () => {
                 <motion.div
                   key={card.id}
                   variants={item}
-                  whileHover={{ y: -4, boxShadow: "0 10px 25px rgb(0 0 0 / 0.08)" }}
+                  whileHover={{
+                    y: -4,
+                    boxShadow: "0 10px 25px rgb(0 0 0 / 0.08)",
+                  }}
                   className="rounded-lg border bg-card p-5 md:p-6 shadow-sm flex flex-col min-w-0"
                 >
                   <div className="relative w-full h-48 mb-4 rounded-md overflow-hidden">
@@ -118,10 +121,7 @@ const ServicesSection = () => {
           </motion.div>
 
           <motion.div variants={item} className="flex justify-center mt-8">
-            <motion.div
-              whileHover={{ scale: 1.03 }}
-              whileTap={{ scale: 0.97 }}
-            >
+            <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
               <Button
                 size="lg"
                 onClick={() => router.push("/our-services")}
