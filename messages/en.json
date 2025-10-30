@@ -85,5 +85,110 @@
   "OurPartnersSection": {
     "title": "Our Trusted Partners",
     "description": "Collaborating with industry leaders to deliver exceptional results"
+  },
+  "footer": {
+    "description": "We create innovative digital solutions that drive business growth and deliver exceptional user experiences.",
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "services": "Our Services",
+      "projects": "Our Projects",
+      "contact": "Contact Us"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions"
+    },
+    "contact": {
+      "title": "Contact Info",
+      "address": "Riyadh, Saudi Arabia"
+    },
+    "rights": "All rights reserved. Made with",
+    "scrollToTop": "Scroll to top"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy is important to us. Learn how we protect your data.",
+    "intro": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: December 2024",
+      "description": "At AltaMayuz, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our services."
+    },
+    "sections": {
+      "overview": {
+        "title": "Information Overview",
+        "content": "We collect information you provide directly to us, such as when you create an account, contact us, or use our services. This may include your name, email address, phone number, and other contact information."
+      },
+      "dataCollection": {
+        "title": "Data Collection",
+        "content": "We collect personal information that you voluntarily provide to us when registering, expressing interest in obtaining information about us or our products and services, or contacting us."
+      },
+      "dataUsage": {
+        "title": "How We Use Your Data",
+        "content": "We use the information we collect to provide, maintain, and improve our services, communicate with you, and comply with legal obligations. We do not sell your personal information to third parties."
+      },
+      "dataProtection": {
+        "title": "Data Protection",
+        "content": "We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+      },
+      "dataSecurity": {
+        "title": "Data Security",
+        "content": "We use industry-standard security measures to protect your information, including encryption, secure servers, and regular security audits to ensure your data remains safe."
+      },
+      "dataRetention": {
+        "title": "Data Retention",
+        "content": "We retain your personal information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required by law."
+      }
+    },
+    "contact": {
+      "title": "Questions About Privacy?",
+      "description": "If you have any questions about this Privacy Policy or our data practices, please don't hesitate to contact us.",
+      "email": "Contact Privacy Team"
+    }
+  },
+  "termsPolicy": {
+    "title": "Terms & Conditions",
+    "subtitle": "Please read these terms carefully before using our services.",
+    "intro": {
+      "title": "Terms & Conditions",
+      "lastUpdated": "Last updated: December 2024",
+      "description": "These Terms and Conditions govern your use of AltaMayuz services. By accessing or using our services, you agree to be bound by these terms."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing and using our services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service."
+      },
+      "services": {
+        "title": "Use of Services",
+        "content": "Our services are provided for lawful purposes only. You agree to use our services in compliance with all applicable laws and regulations, and you will not use our services for any illegal or unauthorized purpose."
+      },
+      "userRights": {
+        "title": "User Rights and Responsibilities",
+        "content": "You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account."
+      },
+      "restrictions": {
+        "title": "Restrictions",
+        "content": "You may not use our services to transmit, distribute, or deliver any unlawful, harassing, libelous, abusive, threatening, harmful, vulgar, obscene, or otherwise objectionable material."
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "AltaMayuz shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses."
+      },
+      "termination": {
+        "title": "Termination",
+        "content": "We may terminate or suspend your account and bar access to the service immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever."
+      }
+    },
+    "notice": {
+      "title": "Important Notice",
+      "description": "These terms may be updated from time to time. We will notify you of any changes by posting the new Terms and Conditions on this page. Changes are effective immediately upon posting."
+    },
+    "contact": {
+      "title": "Legal Questions?",
+      "description": "If you have any questions about these Terms and Conditions, please contact our legal team.",
+      "email": "Contact Legal Team"
+    }
   }
 }
